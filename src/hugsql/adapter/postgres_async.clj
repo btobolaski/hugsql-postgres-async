@@ -23,7 +23,7 @@
                                         (first res))]
                            (if (nil? return)
                              (close! return-chan)
-                             (put! return-chan return #(close! return-chan))))))
+                             (put! return-chan return (fn [_] (close! return-chan)))))))
     return-chan))
 
 (deftype HugsqlAdapterPostgresAsync []

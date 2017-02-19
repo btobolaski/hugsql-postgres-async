@@ -7,5 +7,6 @@ All notable changes to this project will be documented in this file. This change
 ## 0.3.3 - 2017-02-19
 ### Changed
 - Updated dependencies
+- Fix arity exception in get-one
 
 [Unreleased]: https://github.com/your-name/muninn/compare/0.3.3...HEAD
